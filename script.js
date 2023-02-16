@@ -1,5 +1,4 @@
 //your code here
-var btn =document.getElementById("submit");
 function minCostToFormRope(a) {
   a.preventDefault();
   var inputElement = document.querySelector("input").value;
@@ -24,4 +23,3 @@ function minCostToFormRope(a) {
 
   document.getElementById("result").textContent = cost;
 }
-btn.addEventListener('click',minCostToFormRope(a))
